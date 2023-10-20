@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover" />
+  <title>flynodetemplate share</title>
+  <script type="module" crossorigin src="{{mainJs}}"></script>
+  <link href="{{mainCss}}" rel="stylesheet">
+</head>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="app"></div>
+  <script>
+    !function (n) {
+      var e = n.document,
+        t = e.documentElement,
+        i = 750,
+        d = i / 16,
+        o = "orientationchange" in n ? "orientationchange" : "resize",
+        a = function () {
+          var n = t.clientWidth || 320; n > 750 && (n = 750);
+          t.style.fontSize = n / d + "px"
+        };
+      e.addEventListener && (n.addEventListener(o, a, !1), e.addEventListener("DOMContentLoaded", a, !1))
+    }(window);
+  </script>
+</body>
+
+</html>

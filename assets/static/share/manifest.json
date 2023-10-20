@@ -1,0 +1,32 @@
+{
+  "index.css": {
+    "file": "static/share/index-7e3cccfb.css",
+    "src": "index.css"
+  },
+  "index.html": {
+    "css": [
+      "static/share/index-7e3cccfb.css"
+    ],
+    "dynamicImports": [
+      "src/views/CardView.vue"
+    ],
+    "file": "static/share/index-53bfa523.js",
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "src/views/CardView.css": {
+    "file": "static/share/CardView-f66566ed.css",
+    "src": "src/views/CardView.css"
+  },
+  "src/views/CardView.vue": {
+    "css": [
+      "static/share/CardView-f66566ed.css"
+    ],
+    "file": "static/share/CardView-97e15003.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/views/CardView.vue"
+  }
+}
