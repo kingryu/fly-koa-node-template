@@ -1,0 +1,57 @@
+{
+  "name": "fly-koa-node-template",
+  "version": "1.0.0",
+  "description": "koa node template server render",
+  "main": "app.js",
+  "scripts": {
+    "dev": "NODE_PATH=. NODE_ENV='dev' LOG_PATH='./log/logstash/logstash.log' node app.js",
+    "qa": "NODE_PATH=. NODE_ENV='qa' LOG_PATH='./log/logstash/logstash.log' node app.js",
+    "prod": "NODE_PATH=. NODE_ENV='prod' node app.js",
+    "clearLog": "rm -rf ./log/logstash/*"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "keywords": [
+    "node",
+    "koa",
+    "app"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "@types/html-minifier": "^4.0.0",
+    "@types/koa-favicon": "^2.0.19",
+    "@types/koa-mount": "^4.0.0",
+    "@types/koa-static": "^4.0.1",
+    "@types/node": "^14.14.37",
+    "@types/nunjucks": "^3.1.4",
+    "@types/ua-parser-js": "^0.7.35",
+    "axios": "^0.21.1",
+    "compare-versions": "^4.1.3",
+    "debug": "^2.6.8",
+    "file-type": "^16.5.0",
+    "html-minifier": "^3.3.1",
+    "ip": "^1.1.5",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^2.2.0",
+    "koa-compose": "^3.2.1",
+    "koa-convert": "1.2.0",
+    "koa-favicon": "^2.0.0",
+    "koa-helmet": "^2.0.0",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^7.2.1",
+    "koa-static": "^3.0.0",
+    "lodash.merge": "^4.6.0",
+    "log4js": "^0.6.38",
+    "lru-cache": "^4.1.1",
+    "memory-cache": "^0.1.6",
+    "nunjucks": "^3.0.1",
+    "request": "^2.88.2",
+    "statuses": "^1.4.0",
+    "type-is": "^1.6.15",
+    "ua-parser-js": "^0.7.24",
+    "simple-git": "^2.38.0",
+    "uuid": "^3.3.2"
+  }
+}
