@@ -104,6 +104,14 @@ const pageRoutes = [
     controller: 'editor.index'
   },
   {
+    match: "/404",
+    controller: "404.index",
+  },
+  {
+    match: "/500",
+    controller: "500.index",
+  },
+  {
     match: "/*",
     controller: "index.index",
   },
